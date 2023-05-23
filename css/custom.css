@@ -14,13 +14,14 @@ body {
 
 .content {
   background-color: rgba(255, 255, 255, 0.8);
-  height: 100%;
+  height: calc(100% - 20px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
   max-width: 400px;
-  margin: 0 auto
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .header {
